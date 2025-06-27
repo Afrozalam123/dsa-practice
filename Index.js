@@ -40,7 +40,7 @@ console.log(longestcommonprefix(str))  // ye function call krega and argumeent p
 
 // qn0=3 find largest number given the array
 
-// let arr=[2,3,9,15,19,50]
+// let nums=[2,3,9,15,19,50]
 
 function longestnumber(nums){    // function name is longest number//
   let max=nums[0]  // max name ka variable hai nums[o] nums ka index 0 hai matlab 2;
@@ -51,7 +51,7 @@ function longestnumber(nums){    // function name is longest number//
   }
   return max;  // rturn max kr dijiye//
 }
-let nums=[2,3,45]  //nums ke anderarray hai array ke ande value hai
+let nums=[2,3,9,15,19,50]  //nums ke anderarray hai array ke ande value hai
 console.log(longestnumber(nums))  // and function call hta argument nums hai
 
 
