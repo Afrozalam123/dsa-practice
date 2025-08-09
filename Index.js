@@ -223,15 +223,29 @@
 
 // let str="Hello";
 
-function ispalindrome(str){
-  let reversed=str.split('').reverse().join('')
-  if(str===reversed){
-   console.log(`${str} this is a palindrome`)
-  }else{
-    console.log(`${str} is not palindrome`)
-  }
-  return str;
-}
-let str="madam"
+// function ispalindrome(str){
+//   let reversed=str.split('').reverse().join('')
+//   if(str===reversed){
+//    console.log(`${str} this is a palindrome`)
+//   }else{
+//     console.log(`${str} is not palindrome`)
+//   }
+//   return str;
+// }
+// let str="madam"
 
-ispalindrome(str)
+// ispalindrome(str)
+
+
+
+let traffic="";   // please enter the color you will give the answer
+
+if(traffic==="red"){
+  console.log("you will stop the car")
+}if(traffic==="yellow"){
+  console.log("you will ready")
+}if(traffic==="green"){
+  console.log("you will go")
+}else{
+  console.log("you go Anywhere")
+}
