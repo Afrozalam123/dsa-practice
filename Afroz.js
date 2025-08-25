@@ -65,18 +65,51 @@
 
 
 
-function ispalindrome(str){
-  let reversed=str.split("").reverse().join("")
-  if(str===reversed){
-    console.log(` ${str} this is a palindrome`)
-  }else{
-    console.log(`${str} this is a not palindrome`)
-  }
-  return reversed;
+// function ispalindrome(str){
+//   let reversed=str.split("").join("")
+//   if(str===reversed){
+//     console.log(`${str} is palindrome`)
+//   }else{
+//     console.log(`${str} is not palindrome`)
+//   }
+//   return reversed;
+// }
+
+// let str="madam"
+// console.log(ispalindrome(str))
+
+
+// function add(a,b,c,d){
+//   return a+b+c+d
+// }
+// console.log(add(1,2,3,4))
+
+
+// console.log(+1)
+// console.log(-2)
+
+
+
+// console.log("Afroz"+"Alam")
+
+
+
+
+// let traffic="red";
+
+// if(traffic==="red"){
+//   console.log("you will be stop")
+// }if(traffic==="yellow"){
+//   console.log("you will be ready")
+// }if(traffic==="green"){
+//   console.log("you will go")
+// }else{
+//   console.log("you will go Anywhwere")
+// }
+
+
+
+function subtraction(a,b,c,d,e){
+  return a-b-c-d+e
 }
-let str="hello"
-let str1="madam"
-console.log(ispalindrome(str))
-console.log(ispalindrome(str1))
-
-
+console.log(subtraction(12,32,1,5,6))
